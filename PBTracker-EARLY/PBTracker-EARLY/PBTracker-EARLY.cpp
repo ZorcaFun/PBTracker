@@ -59,7 +59,7 @@ Transaction getTransactionFromUser(int nextId) {
 // Function to display all transactions
 void showTransactionHistory(const std::vector<Transaction>& transactions) {
     if (transactions.empty()) {
-        std::cout << "No transactions found.\n";
+        std::cout << "-----> No transactions found. <-----\n";
         return;
     }
 
