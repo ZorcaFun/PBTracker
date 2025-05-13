@@ -29,6 +29,10 @@ A simple and interactive console-based application to help you track your income
 
 Use a C++ compiler to compile and run the main program file.
 
+Or
+
+Go to "Release" and download the latest .zip file, unzip it and then launch the .exe file
+
 ---
 
 ## 🌟 Future Enhancements
@@ -48,7 +52,7 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
 
 ---
 
