@@ -14,7 +14,7 @@ A simple and interactive console-based application to help you track your income
 - View complete transaction history
 - Check your balance anytime
 - Organize by categories (e.g., Rent, Food, Salary)
-- Automatic date-stamping for transactions
+- Automatic date-stamping for transactions (coming soon!)
 - Optional: Save and load data from files (coming soon!)
 
 ---
@@ -23,22 +23,11 @@ A simple and interactive console-based application to help you track your income
 
 ### Prerequisites
 
-- C++ compiler (e.g., g++)
-- Terminal or command prompt
+- C++ compiler (ex : Visual Studio)
 
 ### Compile and Run
 
 Use a C++ compiler to compile and run the main program file.
-
----
-
-## 📚 What You'll Learn
-
-- Using structs and vectors in C++
-- Handling user input and output formatting
-- Managing transactions and categories
-- Working with loops, conditionals, and basic functions
-- (Optional) Using file I/O for persistent data
 
 ---
 
