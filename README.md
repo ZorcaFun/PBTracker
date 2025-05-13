@@ -35,12 +35,13 @@ Go to "Release" and download the latest .zip file, unzip it and then launch the 
 
 ---
 
-## 🌟 Future Enhancements
+## 🌟 Future Enhancements (COMING SOON!)
 
 - Monthly summaries
 - Simple password protection
 - Export reports to text/CSV
 - File saving/loading support
+- An entirely application (non console app)
 
 ---
 
