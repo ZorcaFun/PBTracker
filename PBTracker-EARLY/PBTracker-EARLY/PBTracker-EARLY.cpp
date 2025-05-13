@@ -27,15 +27,30 @@ const int askTransaction() {
 
 	int choice;
 
-	std::cout << "Hey, i see you want make transaction save? :";
-	std::cout << "1 : Yes!";
-	std:: cout << "2 : No!";
-	std::cout << "Enter your choice :";
+	std::cout << "Hey, i see you want make transaction save? :" << std::endl;
+	std::cout << "1 : Yes!" << std::endl;
+	std:: cout << "2 : No!" << std::endl;
+	std::cout << "Enter your choice :" << std::endl;
 	std::cin >> choice;
 
+	while (choice < 1 || choice > 2) {
+		std::cout << "Invalid choice. Please enter 1 or 2: ";
+		std::cin >> choice;
+	};
+	
 	switch (choice) {
 	case 1:
-		std::cout << "You choose YES";
+		std::cout << "You chose YES\n";
+		break;
+	case 2:
+		std::cout << "You chose NO\n";
+		break;
 	}
+	return choice;
+	
+	return 0;
+};
 
+int main() {
+	int userChoice = askTransaction();
 };
