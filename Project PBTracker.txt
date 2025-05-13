@@ -1,0 +1,47 @@
+
+🎯 Project: Personal Budget Tracker (Console App)
+
+🔧 Description:
+Create a console-based budget tracker where the user can input income and expenses, and the program keeps track of the total balance, lists all transactions, and allows basic summaries.
+
+🧠 What You'll Learn:
+- Input/output using cin and cout
+- Using structs or classes
+- Vectors or arrays
+- Loops and conditionals
+- File handling (optional)
+- Basic functions
+
+🗂️ Features to Implement:
+- Add income/expense
+  - User inputs amount, description, and category
+  - Store them in a list (vector of structs)
+- View transaction history
+  - Print all transactions with date, type (income/expense), amount, and description
+- Check balance
+  - Sum income and expenses to show current balance
+- Save/load data (optional advanced)
+  - Use file I/O to store and retrieve data between sessions
+
+🧱 Basic Structure Idea:
+```cpp
+struct Transaction {
+    std::string date;
+    std::string type; // "Income" or "Expense"
+    double amount;
+    std::string description;
+};
+```
+You could store all Transactions in a std::vector<Transaction>.
+
+🚀 Suggested Extensions:
+- Categorize transactions (e.g., Food, Rent, Salary)
+- Generate monthly summaries
+- Add password protection (simple authentication)
+- Export report to a text file
+
+🕹️ Tools You'll Use:
+- iostream
+- vector
+- iomanip (for formatting output)
+- fstream (for file operations)
